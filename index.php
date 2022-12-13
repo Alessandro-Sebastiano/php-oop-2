@@ -1,7 +1,9 @@
 <?php
 require __DIR__ . './Models/Product.php';
 
-$palla = new Product('Cuccia', 'https://picsum.photos/300/200', 26);
+$cuccia = new Product('Cuccia', 'https://picsum.photos/300/200', 26);
+
+
 
 // var_dump($palla);
 
